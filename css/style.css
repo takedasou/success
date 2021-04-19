@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Noto Serif JP", serif;
+  color: #fff;
+  background-color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #e5171f;
+  text-decoration: underline;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto 80px auto;
+  padding: 0 4%;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.header-area {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: auto;
+  margin-left: auto;
+}
+.nav-list li {
+  padding: 0 16px;
+}
+
+.pc {
+  text-align: center;
+  display: block;
+}
+.pc img {
+  height: auto;
+  margin-bottom: 80px;
+  max-width: 960px;
+}
+
+.sp {
+  text-align: center;
+  display: none;
+}
+.sp img {
+  height: auto;
+  margin-bottom: 80px;
+  max-width: 480px;
+}
+
+.sec-title {
+  text-align: left;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 70px;
+}
+
+.text-area {
+  margin-bottom: 70px;
+}
+
+.profile {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.profile .profile-image {
+  width: 20%;
+}
+.profile .profile-image img {
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+}
+.profile .profile-area {
+  width: 70%;
+}
+.profile .profile-area dt {
+  float: left;
+}
+.profile .profile-area dd {
+  margin-left: 80px;
+}
+.profile .profile-area dd .blue-hearts:hover {
+  color: #2f74d1;
+}
+.profile .profile-area dd .creepynuts:hover {
+  color: #bf1818;
+}
+.profile .profile-area dd .jojo:hover {
+  color: #69264c;
+}
+.profile .profile-area dd .twitter:hover {
+  color: #1a91da;
+}
+
+.works-area ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.works-area ul li {
+  width: 25%;
+}
+.works-area ul li .txt1,
+.works-area ul li .txt2,
+.works-area ul li .txt3 {
+  display: none;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.success {
+  margin-top: 15%;
+  text-align: center;
+}
+.success p,
+.success a {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+#header {
+  height: 40px;
+  line-height: 40px;
+}
+
+#contact dl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+#contact dl dt {
+  width: 15%;
+}
+#contact dl dd {
+  width: 85%;
+  margin-bottom: 10px;
+}
+#contact dl dd input,
+#contact dl dd textarea {
+  width: 100%;
+  border: solid 1px #fff;
+  padding: 10px;
+}
+#contact dl dd textarea {
+  height: 10rem;
+}
+#contact .button {
+  text-align: center;
+}
+#contact .button input {
+  width: 200px;
+  color: #fff;
+  padding: 15px 0;
+  border: solid 1px #fff;
+}
+#contact .button input:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  border: solid 1px #000;
+}
+
+#back {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  font-size: 1.3rem;
+}
+
+#footer p {
+  text-align: center;
+  font-size: 0.5rem;
+  margin-bottom: 15px;
+}
+/*# sourceMappingURL=style.css.map */
